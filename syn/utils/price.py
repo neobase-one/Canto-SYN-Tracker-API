@@ -156,7 +156,7 @@ CUSTOM = {
     'klaytn': {},
     'canto': {
         # nUSD
-        '0xD8836aF2e565D3Befce7D906Af63ee45a57E8f80': 1,
+        '0xd8836af2e565d3befce7d906af63ee45a57e8f80': 1,
     },
 }
 
