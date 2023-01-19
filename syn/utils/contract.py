@@ -15,7 +15,8 @@ from web3.types import BlockIdentifier
 import web3.exceptions
 from web3 import Web3
 
-from .data import (BRIDGE_CONFIG, SYN_DATA, MAX_UINT8, SYN_DECIMALS,
+# from .data import (BRIDGE_CONFIG, SYN_DATA, MAX_UINT8, SYN_DECIMALS,
+from .data import (SYN_DATA, MAX_UINT8, SYN_DECIMALS,
                    BASEPOOL_ABI)
 from .helpers import handle_decimals
 from .cache import timed_cache
@@ -135,7 +136,8 @@ def get_bridge_token_info(chain: str,
     chain_id = CHAINS_REVERSED[chain]
     token = Web3.toChecksumAddress(token)
 
-    ret = BRIDGE_CONFIG.functions.getTokenByAddress(token, chain_id).call()
+    # ret = BRIDGE_CONFIG.functions.getTokenByAddress(token, chain_id).call()
+    ret = (0, '0x0000000000000000000000000000000000000000', 0, 0, 0, 0, 0, 0, False, False) 
     # Does not exist - function's default ret.
     if ret == (0, '0x0000000000000000000000000000000000000000', 0, 0, 0, 0, 0,
                0, False, False):

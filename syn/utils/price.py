@@ -61,6 +61,8 @@ class CoingeckoIDS(Enum):
     H2O = 'h2o'
     WBTC = 'wrapped-bitcoin'
     KLAY = 'klay-token'
+    CANTO = 'canto'
+    NOTE = 'note'
 
 
 CUSTOM = {
@@ -152,6 +154,7 @@ CUSTOM = {
         '0x52285d426120ab91f378b3df4a15a036a62200ae': 1,
     },
     'klaytn': {},
+    'canto': {},
 }
 
 ADDRESS_TO_CGID = {
@@ -341,6 +344,13 @@ ADDRESS_TO_CGID = {
         '0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167': CoingeckoIDS.USDT,
         '0xf5f3650f54da85e4a4d8e490139c77275b167c53': CoingeckoIDS.SYN,
     },
+    'canto': {
+        '0x555982d2E211745b96736665e19D9308B615F78e': CoingeckoIDS.SYN,
+        '0x826551890Dc65655a0Aceca109aB11AbDbD7a07B': CoingeckoIDS.CANTO,
+        '0x4e71A2E537B7f9D9413D3991D37958c0b5e1e503': CoingeckoIDS.NOTE,
+        '0xd567b3d7b8fe3c79a1ad8da978812cfc4fa05e75': CoingeckoIDS.USDT,
+        '0x80b5a32e4f032b2a058b4f29ec95eefeeb87adcd': CoingeckoIDS.USDC,
+    }
 }
 
 

@@ -32,6 +32,7 @@ CHAINS = {
     53935: 'dfk',
     121014925: 'terra',
     8217: 'klaytn',
+    7700: 'canto'
 }
 
 CHAINS_REVERSED = {v: k for k, v in CHAINS.items()}

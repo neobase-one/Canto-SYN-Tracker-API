@@ -242,6 +242,9 @@ def dispatch_get_logs(
                 'klaytn': {
                     'nusd': 94136612,
                 },
+                'canto': {
+                    'nusd': 1060258
+                }
             }
 
             if 'pool_contract' in SYN_DATA[chain]:
