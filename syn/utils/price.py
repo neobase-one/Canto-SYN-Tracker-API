@@ -154,7 +154,10 @@ CUSTOM = {
         '0x52285d426120ab91f378b3df4a15a036a62200ae': 1,
     },
     'klaytn': {},
-    'canto': {},
+    'canto': {
+        # nUSD
+        '0xD8836aF2e565D3Befce7D906Af63ee45a57E8f80': 1,
+    },
 }
 
 ADDRESS_TO_CGID = {
@@ -350,6 +353,7 @@ ADDRESS_TO_CGID = {
         '0x4e71A2E537B7f9D9413D3991D37958c0b5e1e503': CoingeckoIDS.NOTE,
         '0xd567b3d7b8fe3c79a1ad8da978812cfc4fa05e75': CoingeckoIDS.USDT,
         '0x80b5a32e4f032b2a058b4f29ec95eefeeb87adcd': CoingeckoIDS.USDC,
+        '0x555982d2e211745b96736665e19d9308b615f78e': CoingeckoIDS.SYN
     }
 }
 
