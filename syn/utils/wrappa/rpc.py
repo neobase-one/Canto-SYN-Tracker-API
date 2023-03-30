@@ -43,6 +43,7 @@ _start_blocks = {
     'metis': 957508,
     'dfk': 0,  # Doesn't it feel great to be the first?
     'klaytn': 93622381,
+    'canto': 1700203
 }
 
 airdrop_ranges = {
@@ -118,6 +119,9 @@ airdrop_ranges = {
     'klaytn': {
         0.1: [None, None],
     },
+    'canto': {
+        0: [None, None],
+    }
 }
 
 pool = Pool(size=64)

@@ -44,6 +44,7 @@ _chain_to_cgid = {
     'metis': CoingeckoIDS.METIS,
     'dfk': CoingeckoIDS.JEWEL,
     'klaytn': CoingeckoIDS.KLAY,
+    'canto': CoingeckoIDS.CANTO,
 }
 
 
